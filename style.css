@@ -1,0 +1,380 @@
+body {
+  overflow-x: hidden; /* يمنع التمرير الأفقي */
+}
+.header {
+  background-color: #0b9586;
+  height: 7rem;
+  /* padding: 16px 150px 16px 150px; */
+  top: 0;
+  z-index: 1000;
+  position: absolute;
+ width: 100%;
+}
+li  {
+  color: #ffffff;
+  display: flex;
+  display: inline;
+  position: relative;
+   bottom: 40px;
+}
+.container{
+  position: relative;
+  left: 70rem;
+  bottom: 80px;
+}
+.container p{
+
+  color: white;
+}
+.container  a{
+ font-size: 24px;
+ margin-top: 2rem;
+ 
+}
+.header img {
+  width: 4rem;
+  height: 3rem;
+  opacity: 0.2;
+}
+a {
+  color: #ffffff;
+  size: 24px;
+  line-height: 28px;
+}
+
+.center li {
+  text-align: center;
+  font-size: 18px;
+  padding-left: 150px;
+  gap: 8px;
+}
+.content {
+  padding-left: 50px;
+}
+.backg-img {
+  background-image: url("./images/solar-panels-meadow 1.png");
+  margin-top: 110px;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  color: #ffffff;
+  height: 500px;
+
+}
+.backg-img .content {
+width: 700px;
+margin-left: 20px;
+padding-top: 100px;
+}
+
+span{
+  color: #84BD3A;
+
+}
+
+.left{
+  padding-left: 100px;
+}
+.right{
+  padding-left: 200px;
+}
+
+.one {
+  background-color: #3cab90;
+  color: #ffffff;
+  width: 173px;
+  height: 41px;
+  padding: 12px 34px 12px 34px;
+  gap: 10px;
+  border-radius: 109px;
+  opacity: 0px;
+}
+.two {
+  background-color: #ffbb1c;
+  color: #2a3334;
+  width: 208px;
+  height: 41px;
+  padding: 12px 34px 12px 34px;
+  gap: 10px;
+  border-radius: 109px;
+  opacity: 0px;
+}
+.imp {
+  display: flex;
+  padding-top: 20px;
+}
+.right img {
+  width:400;
+  height: 350px;
+  padding-left: 40px;
+  padding-top: 20px;
+}
+.right p{
+  background-color:  #FFBB1C;
+  width: 140px;
+  height: 7rem;
+  position: relative;
+bottom: 210px;
+right:20x;
+border-radius: 12px;
+padding: 35px 35px;
+
+}
+.right svg{
+  width: 80px;
+  height: 80px;
+}
+.green {
+  background-image: url(./images/8116\ 1.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 505px;
+  opacity: 0px;
+}
+
+.g {
+  padding-top: 80px;
+  padding-left: 100px;
+}
+.g h3 {
+  color: #ffffff;
+  font-size: 42px;
+}
+.g p {
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.green button {
+  background: #ffbb1c;
+  width: 173px;
+  height: 41px;
+  padding: 12px 34px 12px 34px;
+
+  border-radius: 109px;
+  opacity: 0px;
+}
+.three {
+  display: flex;
+  gap:40px ;
+  margin: 50px
+
+}
+.three .o{
+  width:358px;
+  height: 400;
+  box-shadow: 0px 4px 30px 0px #0000000D;
+ 
+
+}
+.o h4{
+  padding-left: 10px;
+}
+.o p{
+  padding-left: 10px;
+}
+
+.o .product{
+  color:  #3CAB90;
+
+}
+.product i{
+  color:  #3CAB90;
+  width:20px;
+  height: 20px;
+}
+.calc {
+  background-image: url(./images/8116\ 1\ \(1\).png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 505px;
+  position: relative;
+}
+.c-content {
+  text-align: center;
+  width: 858px;
+  position: absolute;
+  top: 150px;
+  background: #00000091;
+  left: 300px;
+  backdrop-filter: blur(24px);
+  border-radius: 12px;
+
+}
+.c-content h2 {
+  font-size: 42px;
+  color: #ffffff;
+}
+.c-content p {
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.columes-3 {
+  display: flex;
+  background: #FFBB1C0D;
+  height: 800px;
+
+}
+.colume {
+  flex: 1;
+  padding-top: 40px;
+}
+
+.t {
+  background-color: #3cab9026;
+  width: 310.6px;
+  height: 70px;
+  text-align: center;
+  margin-top: 40px;
+  margin-left: 20px;
+  border-radius: 10px;
+}
+.a svg{
+  padding-left: 300px;
+}
+
+.t svg{
+  width: 225px;
+  height: 50px;
+opacity: .5;
+  margin-top: 10px;
+}
+.col-border {
+padding: 10px;
+  border: 1px solid #3CAB90;
+  border-radius: 12px;
+  width: 358.67px;
+  height: 418;
+  margin-top: 20px;
+}
+.col-border a{
+  color:  #3CAB90;
+
+}
+.our_value {
+  text-align: center;
+}
+
+.svggl {
+  width: 300px;
+  height: 420px;
+  border-radius: 12px;
+  background-color: #3cab900d;
+  border-radius: 1px solid #3cab90;
+  margin-top: 10px;
+}
+.top {
+  text-align: center;
+  display: flex;
+  gap: 32px;
+  margin-left: 250px;
+}
+.abc {
+  display: flex;
+}
+.a {
+  width: 500px;
+  height: 300px;
+  background-color: #3cab900f;
+  border-radius: 24px;
+  margin: 100px;
+  padding: 20px;
+}
+.b {
+  margin: 100px;
+}
+.e {
+  display: inline-block;
+  position: absolute;
+}
+
+
+.e img {
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+  padding-top: 20px;
+}
+.ss {
+  display: flex;
+  align-items: center; 
+  justify-content: center;
+  padding-right: 10px;
+gap: 5px;
+position: relative;
+bottom: 20px;
+left: 60px;
+}
+.s2 {
+  transform: scaleX(-1); 
+}
+.ut{
+  display: flex;
+  position: relative;
+  top: 40px;
+}
+
+.footer {
+  background-color: #283646;
+  height: 300px;
+}
+.paragraph {
+  display: flex;
+  color: white;
+  gap: 40px;
+}
+.twwo {
+  color: white;
+  margin: 35px;
+  position: relative;
+  margin-left: 250px;
+}
+input {
+  background-color: #92989f;
+
+  width: 360px;
+  height: 45px;
+  border-radius: 38px;
+  padding-left: 20px;
+  border-color: 1px solid #b3bdc7;
+}
+.oon {
+  margin: 40px;
+}
+.oon img {
+  width: 185px;
+  height: 64px;
+}
+.twwo button {
+  background-color: #ffbb1c;
+  border-radius: 109px;
+  width: 148px;
+  height: 48px;
+  position: absolute;
+  right: 1px;
+}
+.clas {
+  display: flex;
+  margin-left: 150px;
+}
+hr {
+  width: 1140px;
+  border: 1px solid #71777d;
+}
+.classs {
+  color: #92989f;
+  margin-left: 170px;
+  display: flex;
+  gap: 400px;
+}
+
+
+
+
+
+
+
+
+  
